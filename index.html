@@ -69,6 +69,7 @@
     } else if(guessCount === ATTEMPS) {
       lastResult.textContent = '!!!Pérdistes!!!';
       lastResult.style.backgroundColor = 'red';
+      lowOrHi.textContent = '';
       setGameOver();
     } else {
       lastResult.textContent = 'Incorrecto! ';
