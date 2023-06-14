@@ -2,3 +2,4 @@
 2. Cuando se declara la constante "lowOrHi", en el parametro de "querySelector" hacia falta un punto al inicio, ya que estaba como "('lowOrHi')" y es "('.lowOrHi')"
 3. Se modifico el valor de ATTEMPS de 5 por 10, ya que según las instrucciones en el README se indica que los intentos deben de ser 10 y no 5.
 4. Se modifico el color de cuando se ingrese un número incorrecto, ya que anteriormente estaba en verde y debe de ser color negro, además se muestra también el mensaje de "el numero es mayor" o "el numero es menor" en color negro y con letras blancas para que se pueda diferenciar.
+5. Se modifico el mensaje de Incorrecto, ya que si ingresa un número mayor debe de mostrar el mensaje "el número es mayor" y si en dado caso el número ingresado es menor, debe de mostrar "el número es menor", pero el mensaje estaba al contrario.
