@@ -1,1 +1,2 @@
 1. Se estaba llamando a la funcion "addeventListener", el cual no la reconocia como válida, ya que el nombre correcto es "addEventListener". La E de Event era en mayúscula.
+2. Cuando se declara la constante "lowOrHi", en el parametro de "querySelector" hacia falta un punto al inicio, ya que estaba como "('lowOrHi')" y es "('.lowOrHi')"
