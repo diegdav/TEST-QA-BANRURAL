@@ -61,7 +61,10 @@
     }
     guesses.textContent += userGuess + ' ';
 
-    if(userGuess == randomNumber) {
+    if(Number(userGuess) % 1 != 0) {
+      lastResult.textContent = 'El valor ingresado no es un entero';
+      lowOrHi.textContent = '';
+    } else if(userGuess == randomNumber) {
       lastResult.textContent = 'Felicitaciones! adivinaste el número!';
       lastResult.style.backgroundColor = 'green';
       lowOrHi.textContent = '';
